@@ -1,0 +1,56 @@
+[00:01:53] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[00:01:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:02:00] [ServerMain/INFO]: Loaded 1585 recipes
+[00:02:00] [ServerMain/INFO]: Loaded 1688 advancements
+[00:02:00] [Server thread/INFO]: Starting minecraft server version 26.2
+[00:02:00] [Server thread/INFO]: Loading properties
+[00:02:00] [Server thread/INFO]: Default game type: SURVIVAL
+[00:02:00] [Server thread/INFO]: Generating keypair
+[00:02:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Controlador no válido
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
+	at java.base/java.lang.System$In.read(System.java:1872)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:328)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:388)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:279)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:322)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:186)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:183)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:166)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:333)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:400)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:146)
+[00:02:00] [Server thread/INFO]: Starting Minecraft server on *:6767
+[00:02:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:02:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:02:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:02:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:02:00] [Server thread/INFO]: Preparing level "world"
+[00:02:01] [Server thread/INFO]: Loading 0 persistent chunks...
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 100%
+[00:02:01] [Server thread/INFO]: Time elapsed: 12 ms
+[00:02:01] [Server thread/INFO]: Done (0.310s)! For help, type "help"
+[00:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:02:40] [Server thread/INFO]: gmarinelli[/127.0.0.1:50298] logged in with entity id 46 at (8.18879908006465, 80.0, 23.096100476522835)
+[00:02:40] [Server thread/INFO]: gmarinelli joined the game
+[00:03:08] [Server thread/INFO]: [Not Secure] <gmarinelli> Estoy en [Overworld] X=5 Y=80 Z=13
+[00:03:13] [Server thread/INFO]: [Not Secure] <gmarinelli> Estoy en [Overworld] X=13 Y=81 Z=16
+[00:03:52] [Server thread/INFO]: gmarinelli lost connection: Disconnected
+[00:03:52] [Server thread/INFO]: gmarinelli left the game
+[00:03:57] [Server thread/INFO]: Stopping server
+[00:03:57] [Server thread/INFO]: Saving players
+[00:03:57] [Server thread/INFO]: Saving worlds
+[00:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
